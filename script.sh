@@ -1,5 +1,5 @@
+#!/bin/bash
 
-ERNAME=$1
 TOKEN=$1
 USERNAME=`curl "https://api.github.com/user?access_token="$TOKEN | jq '.login'`
 USERNAME=${USERNAME:1:-1}
