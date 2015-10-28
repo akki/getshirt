@@ -3,6 +3,7 @@ Ready script to execute and complete tasks of DigitalOcean hacktoberfest  :D htt
 
 ## Instructions 
 * Clone this repository
+* Install package `jq` using the command `sudo apt-get install jq` (Ubuntu)
 * Go to https://github.com/settings/tokens and generate a token. Tick `repo` and `user` when asked. 
 * Execute `script.sh` as follows 
 
